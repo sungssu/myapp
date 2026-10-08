@@ -1,0 +1,2 @@
+srteamlit>=1.40,<2.0
+python-dotenv
