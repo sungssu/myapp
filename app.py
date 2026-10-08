@@ -8,7 +8,7 @@
 # 로컬 실행
 # python -m streamlit run ./python/webservice/day31/myapp/app.py
 
-# Render Cloud 실행
+# Render Cloud 실행 (Start Command)
 # streamlit run app.py --server.address 0.0.0.0 --server.port $PORT
 
 import os

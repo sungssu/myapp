@@ -1,2 +1,2 @@
-srteamlit>=1.40,<2.0
+streamlit>=1.40,<2.0
 python-dotenv
