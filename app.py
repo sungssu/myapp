@@ -9,7 +9,7 @@
 # python -m streamlit run ./python/webservice/day31/myapp/app.py
 
 # Render Cloud 실행 (Start Command)
-# streamlit run app.py --server.address 0.0.0.0 --server.port $PORT
+# streamlit run app.py --server.port $PORT --server.address 0.0.0.0
 
 import os
 import streamlit as st
@@ -22,7 +22,7 @@ DEFAULT_GREETING = '안녕하세요.'
 APP_GREETING = os.getenv('APP_GREETING', DEFAULT_GREETING)
 
 st.set_page_config(
-    page_title='Render 배포 연습 앱',
+    page_title='Render 배포 연습 앱v2',
     page_icon='🚀',
     layout='centered'
 )
