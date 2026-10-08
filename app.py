@@ -22,12 +22,12 @@ DEFAULT_GREETING = '안녕하세요.'
 APP_GREETING = os.getenv('APP_GREETING', DEFAULT_GREETING)
 
 st.set_page_config(
-    page_title='Render 배포 연습 앱v2',
+    page_title='Render 배포 연습 앱',
     page_icon='🚀',
     layout='centered'
 )
 
-st.title('🚀 Render 배포 연습 앱')
+st.title('🚀 Render 배포 연습 앱v2')
 st.write('이 화면이 보이면 앱이 정상적으로 실행되고 있다는 것입니다.')
 
 st.divider()
